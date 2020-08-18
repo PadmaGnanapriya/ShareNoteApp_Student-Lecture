@@ -14,7 +14,7 @@
             <Font name="MS Gothic" size="22.0" />
          </font>
       </Label>
-      <TextArea layoutX="22.0" layoutY="100.0" prefHeight="200.0" prefWidth="555.0" promptText="Type your note here." />
+      <TextArea fx:id="lectTextArea" layoutX="22.0" layoutY="100.0" prefHeight="200.0" prefWidth="555.0" promptText="Type your note here." />
       <Button layoutX="247.0" layoutY="323.0" mnemonicParsing="false" onAction="#upload" style="-fx-background-color: blue;" text="Upload" textFill="WHITE">
          <font>
             <Font size="23.0" />
